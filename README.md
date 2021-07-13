@@ -7,5 +7,5 @@
 * Open Source Programs
 
 ### Some resources:
-* Code For Cause's video on Open Source
+* Code For Cause's video on Open Source ->
 https://www.youtube.com/watch?v=BI_tudfBxJI
