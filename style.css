@@ -195,7 +195,7 @@ footer{
 footer span{
     color: fuchsia;
     background-image: url("assets/2.png");
-    border:0px;
+    border:none;
 }
 
 footer a{
