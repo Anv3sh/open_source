@@ -7,7 +7,7 @@
 * Open Source Programs
 
 ## Link to the website
-https://about-open-source.netlify.app/index.html
+https://about-open-source.netlify.app
 
 ### Some resources:
 * Code For Cause's video on Open Source ->
