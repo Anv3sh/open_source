@@ -216,6 +216,12 @@ footer a{
 
 }
 
+.programs span{
+    color:aquamarine;
+    background-color: inherit;
+    border:none;
+}
+
 .programs h3{
     font-weight:400;
 }
