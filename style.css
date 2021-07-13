@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+nav{
+    color: black;
+    display:inline-block;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    height: 55px;
+    font-size: 20px;
+    background-color: aquamarine;
+    font-weight: 500;
+    filter:opacity(80%);
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color:inherit;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+
+nav a:hover{
+    color:fuchsia;
+}
+
+/*
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+*/
+li{
+    float:left;
+}
+
+h2{
+    font-weight: 1500 !important; 
+}
+
+.image img{
+    height:auto;
+}
+
+.home{
+    color: aquamarine;
+    padding-top:80px;
+    text-align: center;
+    font-size:25px;
+    background-image: url("assets/2.png");
+    
+}
+
+.home p{
+    padding-top:10px;
+    padding-bottom:10px;
+    height:10vh;
+    /* clip-path: circle(50%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    /* height: 90vh; */
+}
+
+.content{
+    width:1000px;
+}
+
+.about{
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-left:110px;
+    padding-right:110px;
+    font-size:20px;
+    color:black;
+}
+
+.flexing{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.flexing img{
+    max-width: 53%;
+    position: relative;
+    top: 0;
+    animation-name: float;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.version-control{
+    display:flex;
+    flex-direction: column;
+    border-bottom:2px solid;
+    text-align: center;
+}
+
+.version-control img{
+    max-width:80%;
+}
+
+.benefits{
+    margin-top:50px;
+}
+
+.git{
+    display:flex;
+    flex-direction:column;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.git img{
+    
+    max-width:20%;
+    height:auto;
+}
+
+.detail{
+    padding-top:8px;
+}
+
+.git-commands{
+    border-top:2px solid;
+    padding-top:30px;
+
+}
+
+.git-commands h2{
+    text-align:center;
+}
+
+h4{
+    font-weight:500;
+}
+
+span{
+    background-color: lightgrey;
+    border: 0.5px solid lightgrey;
+    border-radius:5px;
+    color:green;
+    padding:5px;
+}
+
+.github{
+    border-top:2px solid;
+    padding-top:30px;
+    text-align: center;
+
+}
+
+footer{
+    height:50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-image: url("assets/2.png");
+    color:aquamarine;
+
+}
+
+footer span{
+    color: fuchsia;
+    background-image: url("assets/2.png");
+    border:0px;
+}
+
+footer a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* for programs.html */
+
+.programs{
+    margin-top:60px;
+    text-align: center;
+    font-size:25px;
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-left:110px;
+    padding-right:110px;
+
+}
+
+.programs h3{
+    font-weight:400;
+}
+
+.programs h4{
+    padding-top:30px;
+    font-weight: 500;
+    color:darkcyan;
+}
+
+.programs img{
+    max-width:17%;
+    height:auto;
+}
+
+.programs p{
+    font-size: 20px;
+    padding-bottom:10px;
+}
+.programs a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.flex1{
+    padding-bottom:30px;
+    border-bottom: 2px solid;
+}
+
+.flex2{
+    padding-bottom:30px;
+    border-bottom: 2px solid;
+
+}
+
+.flex3{
+    padding-bottom:30px;
+    border-bottom: 2px solid;
+}
+
+.flex3 img{
+    max-width:12%;
+}
+
+.flex4{
+    padding-bottom:30px;
+    border-bottom: 2px solid;
+}
+
+.flex5{
+    padding-bottom:30px;
+    border-bottom: 2px solid;
+}
+
+.flex6{
+    padding-bottom:30px;
+}
+
+@keyframes float {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 20px;
+    }
+    100% {
+      top: 0;
+    }
+  }

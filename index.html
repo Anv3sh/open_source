@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Open-Source</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <!-- <div class="dropdown"> -->
+        <li><a href="#about">About</a></li>
+        <!--
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        </div>
+        -->
+        <li><a href="programs.html">Programs</a></li>
+    </ul>
+    </nav>
+
+    <!-- Home -->
+    <div class="home">
+        <div class="flexing">
+            <div class="content">
+            <p>What is Version Control?</p><br>
+            <p>What is Git?</p><br>
+            <p>What is Github?</p>
+            </div>
+            <div class="image">
+                <img src="assets/7.png">
+            </div>
+       </div>
+
+        <p>👇Answer to all your questions👇</p>
+    </div>
+    
+    <!-- About section -->
+    <div class="about" >
+        <div class="version-control" id="about">
+        <h2>What is Version Control?</h2><br>
+        <p>
+            Version control, also known as source control, is the practice of tracking and managing changes to software code.<br>
+            Version control systems are software tools that help software teams manage changes to source code over time.<br> 
+            As development environments have accelerated, version control systems help software teams work faster and smarter.<br>
+            They are especially useful for DevOps teams since they help them to reduce development time and increase successful deployments.
+        </p>
+        <br>
+        <div class="image">
+            <img src="assets/6.png">
+        </div>
+        <div class="benefits">
+            <h3>Benefits of version control systems</h3>
+            <br>
+            <div class="text">
+            <p>✦ History of every file.</p>
+            <p>✦ Branching and merging</p>
+            <p>✦ Traceability</p>
+            </div>
+        </div>
+        <br>
+        </div>
+
+        <div class="git">
+        <div class="text">
+        <h2>What is Git?</h2><br>
+        <p>
+            By far, the most widely used modern version control system in the world today is Git. <br>
+            Git is an example of a DVCS (hence Distributed Version Control System).<br>
+            In Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.<br>
+            In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
+        </p>
+        <br>
+        </div>
+        <div class="image">
+            <img src="assets/5.png">
+        </div>
+        </div>
+
+        <div class="git-commands">
+        <h2>Basic Git Commands:</h2>
+        <br>
+        
+        <div>
+            <h4>✦INITIALISE A GIT REPOSITIORY</h4><br>
+            <p><span>git init</span></p>
+            <p class="detail">
+                Initialises a git repository (repo) for a new or existing
+                project. Run command in the root of your project directory.
+            </p><br>
+        </div>
+        
+        <div>
+            <h4>✦COPY A GIT REPOSITORY</h4><br>
+            <p><span>git clone ("https://name-of-the-repository-link")</span></p>
+            <p class="detail">
+                Makes an identical copy of the latest version of a
+                project in a repo (e.g. Github) and saves it to your computer.
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦CHECK STATUS OF YOUR BRANCH</h4><br>
+            <p><span>git status</span></p>
+            <p class="detail">
+                gives all the necessary information about the current
+                branch (working directory), i.e, changes made since last commit.
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦ADD CHANGES TO DIRECTORY</h4><br>
+            <p><span>git add.</span></p>
+            <p class="detail">
+                When you create, modify or delete a file, changes
+                happen in your local and won't be included in the next commit, so
+                you need to use git add to include changes of any file(s) into your
+                next commit
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦COMMIT YOUR CHANGES</h4><br>
+            <p><span>git commit -m "your commit message"</span></p>
+            <p class="detail">
+                There will be a point in development where you want
+                to save your changes. You also need to write a short message to
+                explain what you've changed or developed in your code.
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦UPLOAD YOUR COMMITS TO GIT</h4><br>
+            <p><span>git push (remote) (branch-name)</span></p>
+            <p class="detail">
+                After committing your changes you need to send
+                your changes to the remote server. Git push uploads your commits
+                to the remote repository.
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦GET UPDATES FROM REMOTE REPO</h4><br>
+            <p><span>git pull (remote)</span></p>
+            <p class="detail">
+                git pull is used to get updates from the remote repo.
+                When we use git pull, it gets updates from remote repos (git fetch)
+                and applies the latest changes in your local (git merge).
+
+            </p><br>
+        </div>
+
+        <div>
+            <h4>✦MERGE YOUR BRANCH INTO PARENT BRANCH</h4><br>
+            <p><span>git merge (branch-name)</span></p>
+            <p class="detail">
+                When you've completed development in your branch,
+                the final step is merging the branch with the parent branch (dev or
+                master). Git merge integrates your feature branch with all of its
+                commits back to the dev (or master) branch.
+            </p><br>
+        </div>
+        </div>
+
+        
+        <div class="github">
+        <h2>What is Github?</h2><br>
+        <p>
+            GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.<br> 
+            It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features.<br> 
+            It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wikis for every project.
+        </p>
+        </div>
+    </div>
+
+    <footer>
+        <p><span>♥︎</span>Made by <u><a href="https://www.linkedin.com/in/anvesh-mishra-8020b416a/" target="blank">Anvesh</a></u><span>♥︎</span></p>
+    </footer>
+</body>
+</html>
