@@ -166,11 +166,11 @@ h4{
     font-weight:500;
 }
 
-span{
-    background-color: lightgrey;
-    border: 0.5px solid lightgrey;
+.git-commands span{
+    background-color: #d9d9d9;
+    border: 0.5px solid #d9d9d9;
     border-radius:5px;
-    color:green;
+    color:darkcyan;
     padding:5px;
 }
 
@@ -190,12 +190,6 @@ footer{
     background-image: url("assets/2.png");
     color:#99e6ff;
 
-}
-
-footer span{
-    color: fuchsia;
-    background-image: url("assets/2.png");
-    border:none;
 }
 
 footer a{
