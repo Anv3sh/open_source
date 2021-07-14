@@ -19,7 +19,7 @@ nav{
     z-index: 9999;
     height: 55px;
     font-size: 20px;
-    background-color: aquamarine;
+    background-color:#99e6ff;
     font-weight: 500;
     filter:opacity(80%);
 }
@@ -73,7 +73,7 @@ h2{
 }
 
 .home{
-    color: aquamarine;
+    color:#99e6ff;
     padding-top:80px;
     text-align: center;
     font-size:25px;
@@ -188,7 +188,7 @@ footer{
     padding-top: 30px;
     padding-bottom: 10px;
     background-image: url("assets/2.png");
-    color:aquamarine;
+    color:#99e6ff;
 
 }
 
@@ -217,7 +217,7 @@ footer a{
 }
 
 .programs span{
-    color:aquamarine;
+    color:#99e6ff;
     background-color: inherit;
     border:none;
 }
