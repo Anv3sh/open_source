@@ -92,6 +92,9 @@ h2{
 
 .content{
     width:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .about{
@@ -106,7 +109,7 @@ h2{
 .flexing{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
