@@ -10,5 +10,5 @@
 https://about-open-source.netlify.app
 
 ### Some resources:
-* Code For Cause's video on Open Source ->
-https://www.youtube.com/watch?v=BI_tudfBxJI
+* Kunal Kushwaha's video on Open Source ->
+https://youtu.be/msyGybzCKRs
